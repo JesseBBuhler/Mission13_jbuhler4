@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import data from "../../data/MovieData.json";
 import MovieTable from "./MovieTable";
+import PageButtons from "./PageButtons";
 
 function PaginationHandler() {
   //set up constants
@@ -11,11 +12,11 @@ function PaginationHandler() {
   //update functions
   const ChangePage = (newPage: any) => {
     setPage(newPage);
-    setPageData(CalcPageData());
+    setPageData(CalcPageData(newPage));
   };
 
-  const CalcPageData = () => {
-    let first = PageSize * (page - 1);
+  const CalcPageData = (newPage: any) => {
+    let first = PageSize * (newPage - 1);
     let last = first + PageSize;
     if (last > MovieData.length) {
       last = MovieData.length;
@@ -28,11 +29,15 @@ function PaginationHandler() {
 
   //state variables
   const [page, setPage] = useState(1);
-  const [pageData, setPageData] = useState(CalcPageData());
+  const [pageData, setPageData] = useState(CalcPageData(1));
 
   return (
     <>
-      <h2>{page}</h2>
+      <PageButtons
+        NumPages={NumPages}
+        page={page}
+        ChangePage={ChangePage}
+      ></PageButtons>
       <MovieTable pageData={pageData}></MovieTable>
     </>
   );
