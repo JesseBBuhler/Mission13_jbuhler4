@@ -5,7 +5,7 @@ import PageButtons from "./PageButtons";
 
 function PaginationHandler() {
   //set up constants
-  const PageSize = 15;
+  const PageSize = 25;
   const MovieData = data.MovieData;
   const NumPages = Math.ceil(MovieData.length / PageSize);
 
@@ -32,14 +32,18 @@ function PaginationHandler() {
   const [pageData, setPageData] = useState(CalcPageData(1));
 
   return (
-    <>
-      <PageButtons
-        NumPages={NumPages}
-        page={page}
-        ChangePage={ChangePage}
-      ></PageButtons>
-      <MovieTable pageData={pageData}></MovieTable>
-    </>
+    <div className="row">
+      <div className="col-1">
+        <PageButtons
+          NumPages={NumPages}
+          page={page}
+          ChangePage={ChangePage}
+        ></PageButtons>{" "}
+      </div>
+      <div className="col-11">
+        <MovieTable pageData={pageData}></MovieTable>
+      </div>
+    </div>
   );
 }
 
