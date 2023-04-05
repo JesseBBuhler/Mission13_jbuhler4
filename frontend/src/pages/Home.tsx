@@ -3,8 +3,7 @@ import HeroImage from "../components/HeroImage";
 function Home() {
     return (
       <>
-        <h1>Home</h1>
-        <HeroImage path="frontend\public\JoelHiltonHeadshot.jpg" height={50}></HeroImage>
+        <HeroImage image="/JoelHiltonHeadshot.jpg" alt="Joel Hilton Hero Image" title="Welcome the the Joel Hilton Website!" subtitle="Check out my podcast and movie collection."></HeroImage>
       </>
     );
   }

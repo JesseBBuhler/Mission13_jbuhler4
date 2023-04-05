@@ -1,23 +1,14 @@
 import React from 'react';
-import './HeroImage.module.css'
+import styles from './HeroImage.module.css'
 
 function HeroImage (props: any) {
-    const imageDescription = props.description || 'Undescribed header image';
-    type Styles = {[key: string]: any;};
-    const styles: Styles = {};
-    if (props.height) {
-        styles['--hero-image-height'] = props.height;
-    }
-    if (props.path) {
-        styles['--hero-image'] = `url('${props.path}')`;
-    }
-
     return (
-        <div aria-label={imageDescription} className='hero' role='image' style={styles}>
-            <div className="hero__image-blurred-bg"></div>
-            <div className="hero__image"></div>
+        <div className={styles.hero_container}>
+            <img className={styles.hero_img} src={props.image} alt={props.alt} />
+            <h1 className={styles.hero_title}>{props.title}</h1>
+            <h4 className={styles.hero_subtitle}>{props.subtitle}</h4>
         </div>
-    )
+    );
 }
 
 export default HeroImage;
