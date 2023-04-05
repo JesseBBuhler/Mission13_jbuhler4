@@ -6,7 +6,12 @@ function Layout() {
     return (
       <>
       <Header/>
-      <Outlet/>
+      <div className="container">
+<main className="pd-3">
+<Outlet/>
+</main>
+      </div>
+
       <Footer/>
       </>
     );
