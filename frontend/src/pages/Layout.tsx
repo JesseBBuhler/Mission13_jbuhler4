@@ -6,8 +6,8 @@ import styles from "./Layout.module.css";
 function Layout() {
   return (
     <div className={styles.page_container}>
-      <Header />
       <div className={styles.content_wrap}>
+        <Header />
         <main className="pd-3">
           <Outlet />
         </main>
