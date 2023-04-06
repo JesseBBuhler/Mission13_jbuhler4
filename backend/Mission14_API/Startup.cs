@@ -32,6 +32,7 @@ namespace Mission14_API
             {
                 options.UseSqlite(Configuration["ConnectionStrings:MovieDbConnection"]);
             });
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +42,8 @@ namespace Mission14_API
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors(p => p.WithOrigins("http://localhost:3000"));
 
             app.UseHttpsRedirection();
 
