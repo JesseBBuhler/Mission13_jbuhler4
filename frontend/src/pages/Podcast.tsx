@@ -1,4 +1,10 @@
+import react, { useEffect } from "react";
+
 function Podcast() {
+  useEffect(() => {
+    document.title = "Mission13 - Podcast";
+  });
+
   return (
     <div className="text-center">
       <h1 className="display-4">Check out the Baconsale podcast!</h1>

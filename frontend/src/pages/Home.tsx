@@ -1,6 +1,11 @@
 import HeroImage from "../components/HeroImage";
+import react, { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    document.title = "Mission13 - Home";
+  });
+
   return (
     <>
       <HeroImage
