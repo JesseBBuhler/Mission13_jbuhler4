@@ -4,7 +4,7 @@ import { useEffect } from "react";
 function Collection() {
   useEffect(() => {
     document.title = "Mission14 - Collection";
-  });
+  }, []);
 
   return (
     <>
