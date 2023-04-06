@@ -62,10 +62,13 @@ C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Deb
 C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\Mission14_API.csproj.CoreCompileInputs.cache
 C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\Mission14_API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\staticwebassets\Mission14_API.StaticWebAssets.Manifest.cache
-C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\staticwebassets\Mission14_API.StaticWebAssets.xml
-C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Mission14_API.styles.css
 C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\Mission14_API.RazorTargetAssemblyInfo.cache
 C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\Mission14_API.csproj.CopyComplete
 C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\Mission14_API.dll
 C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\Mission14_API.pdb
 C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\Mission14_API.genruntimeconfig.cache
+C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\staticwebassets\Mission14_API.StaticWebAssets.Pack.cache
+C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.Mission14_API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Mission14_API.props
+C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Mission14_API.props
+C:\Users\brayd\OneDrive\Desktop\Mission13_jbuhler4\backend\Mission14_API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Mission14_API.props
